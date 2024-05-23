@@ -5,7 +5,7 @@
   --height: 3508px;
 
   --standard-font-size: 10px;
-  font-size: calc(var(--standard-font-size) * 5);
+  font-size: calc(var(--standard-font-size) * 2.5);
 
   --spacing: calc(var(--standard-font-size) * 1);
   padding: calc(var(--spacing) * 2) calc(var(--spacing) * 4);
@@ -26,8 +26,8 @@ body,
 }
 
 html {
-  max-width: calc(var(--width) / 4);
-  height: calc(var(--height) / 4);
+  max-width: calc(var(--width));
+  height: calc(var(--height));
 }
 
 body,
