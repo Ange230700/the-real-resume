@@ -149,17 +149,26 @@ h4,
 
 .competences-techniques-list-item,
 .soft-skills-list-item {
-  width: 48%;
+  //   width: 48%;
+  width: 33.3333%;
   margin-bottom: var(--spacing);
 }
 
-.competences-techniques-list-item:nth-child(2n + 1),
-.soft-skills-list-item:nth-child(2n + 1) {
+.competences-techniques-list-item:nth-child(3n + 2),
+.soft-skills-list-item:nth-child(3n + 2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+}
+
+.competences-techniques-list-item:nth-child(3n + 1),
+.soft-skills-list-item:nth-child(3n + 1) {
   border-right: 1px solid black;
   padding-right: var(--spacing);
 }
 
-.competences-techniques-list-item:nth-child(2n),
-.soft-skills-list-item:nth-child(2n) {
+.competences-techniques-list-item:nth-child(3n),
+.soft-skills-list-item:nth-child(3n) {
   padding-left: var(--spacing);
 }

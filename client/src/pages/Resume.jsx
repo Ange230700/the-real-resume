@@ -29,6 +29,7 @@ function Resume() {
                 alt="github"
               /> --> */}
               <p>
+                Github:{" "}
                 <Link
                   className="socials-link-text"
                   to="https://github.com/Ange230700"
@@ -38,12 +39,13 @@ function Resume() {
               </p>
             </div>
             <div className="socials">
-              {/* <!-- <img
+              {/* <img
                 class="socials-logo"
                 src="./assets/svg/linkedin.svg"
                 alt="linkedin"
-              /> --> */}
+              /> */}
               <p>
+                LinkedIn:{" "}
                 <Link
                   className="socials-link-text"
                   to="https://www.linkedin.com/in/ange-kouakou/"
@@ -59,8 +61,12 @@ function Resume() {
                 alt="linkedin"
               /> --> */}
               <p>
-                <Link className="socials-link-text" to="/">
-                  {" "}
+                Portfolio:{" "}
+                <Link
+                  className="socials-link-text"
+                  to="http://vps-80a85dd9.vps.ovh.net:5000/"
+                >
+                  http://vps-80a85dd9.vps.ovh.net:5000/
                 </Link>
               </p>
             </div>
@@ -90,24 +96,33 @@ function Resume() {
         </p>
         <section className="competences">
           <h3>Compétences</h3>
-          <h4>&nbsp;&nbsp;&nbsp;&nbsp;Compétences techniques</h4>
+
+          <h4>&nbsp;&nbsp;&nbsp;&nbsp;Tech stack</h4>
           <ul className="competences-techniques-list">
             <li className="competences-techniques-list-item">React</li>
             <li className="competences-techniques-list-item">Express</li>
             <li className="competences-techniques-list-item">Node</li>
             <li className="competences-techniques-list-item">MySQL</li>
-            <li className="competences-techniques-list-item">Git</li>
-            <li className="competences-techniques-list-item">SCSS</li>
-            <li className="competences-techniques-list-item">
-              Figma - UX / UI
-            </li>
-            <li className="competences-techniques-list-item">JWT</li>
-            <li className="competences-techniques-list-item">REST API</li>
-            <li className="competences-techniques-list-item">
-              SCRUM (Jira / Trello)
-            </li>
-            <li className="competences-techniques-list-item">VS code</li>
           </ul>
+
+          <h4>&nbsp;&nbsp;&nbsp;&nbsp;Outils</h4>
+          <ul className="competences-techniques-list">
+            <li className="competences-techniques-list-item">Git</li>
+            <li className="competences-techniques-list-item">VS Code</li>
+            <li className="competences-techniques-list-item">Postman</li>
+            <li className="competences-techniques-list-item">Figma</li>
+            <li className="competences-techniques-list-item">Trello / Jira</li>
+          </ul>
+
+          <h4>&nbsp;&nbsp;&nbsp;&nbsp;Hébergement</h4>
+          <ul className="competences-techniques-list">
+            <li className="competences-techniques-list-item">WinSCP</li>
+            <li className="competences-techniques-list-item">puttY</li>
+            <li className="competences-techniques-list-item">Vercel</li>
+            <li className="competences-techniques-list-item">Render</li>
+            <li className="competences-techniques-list-item">Alwaysdata</li>
+          </ul>
+
           <h4>&nbsp;&nbsp;&nbsp;&nbsp;Soft skills</h4>
           <ul className="soft-skills-list">
             <li className="soft-skills-list-item">Travail en équipe</li>
@@ -132,7 +147,7 @@ function Resume() {
           <li className="experiences-list-item">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Intégrer
             l'authentification des utilisateurs pour un accès sécurisé et
-            personnalisé.
+            personnalisé
           </li>
           <li className="experiences-list-item">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Administrer la
