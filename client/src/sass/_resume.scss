@@ -26,8 +26,8 @@ body,
 }
 
 html {
-  max-width: var(--width);
-  height: var(--height);
+  max-width: calc(var(--width) / 2);
+  height: calc(var(--height) / 2);
 }
 
 body,
