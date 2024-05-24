@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
 :root {
-  --width: 2480px;
-  --height: 3508px;
+  --width: 595px;
+  --height: 842px;
 
-  --standard-font-size: 10px;
+  // --standard-font-size: 10px;
+  --standard-font-size: 8px;
   font-size: calc(var(--standard-font-size) * 2.5);
 
-  --spacing: calc(var(--standard-font-size) * 1);
-  padding: calc(var(--spacing) * 2) calc(var(--spacing) * 4);
+  --spacing: calc(var(--standard-font-size) * 0.5);
+  padding: calc(var(--spacing) * 1) calc(var(--spacing) * 2);
 
   --main-font-family: "Urbanist", sans-serif;
 }
@@ -149,7 +150,6 @@ h4,
 
 .competences-techniques-list-item,
 .soft-skills-list-item {
-  //   width: 48%;
   width: 33.3333%;
   margin-bottom: var(--spacing);
 }
@@ -171,4 +171,27 @@ h4,
 .competences-techniques-list-item:nth-child(3n),
 .soft-skills-list-item:nth-child(3n) {
   padding-left: var(--spacing);
+}
+
+.title h1 {
+  font-size: 1.5rem; // Reduce title font size
+}
+
+h3 {
+  font-size: 1.2rem; // Reduce h3 font size
+}
+
+h4 {
+  font-size: 1rem; // Reduce h4 font size
+}
+
+ul,
+ol {
+  padding-left: 1rem; // Adjust list padding
+  font-size: 0.9rem; // Reduce list item font size
+}
+
+.formation-list-item,
+.experiences-list-item {
+  font-size: 0.9rem; // Reduce font size in lists
 }
