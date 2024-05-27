@@ -191,6 +191,16 @@ ol {
   font-size: 0.9rem; // Reduce list item font size
 }
 
+.experiences-list,
+.formation-list {
+  list-style-type: none;
+}
+
+.experiences-list-item,
+.formation-list-item {
+  list-style-type: none;
+}
+
 .formation-list-item,
 .experiences-list-item {
   font-size: 0.9rem; // Reduce font size in lists
